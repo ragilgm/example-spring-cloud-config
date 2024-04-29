@@ -1,0 +1,13 @@
+encrypt:
+  key: test
+spring:
+  cloud:
+    config:
+      server:
+        decrypt:
+          enabled: true
+        encrypt:
+          enabled: true
+        git:
+          uri: https://github.com/ragilgm/test-repo  # URL server konfigurasi
+
